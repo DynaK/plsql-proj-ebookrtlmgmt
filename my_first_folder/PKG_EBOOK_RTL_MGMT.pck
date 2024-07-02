@@ -2,6 +2,7 @@ CREATE OR REPLACE PACKAGE PKG_EBOOK_RTL_MGMT IS
 
   --Author: DynaK
   --Purpose: Perform several day end record management of ebook retail store
+  --Created: July 2024
   
   PROCEDURE P_PROCESS_MAIN(O_RESULT OUT NUMBER,
 						   O_INFO   OUT VARCHAR2);
